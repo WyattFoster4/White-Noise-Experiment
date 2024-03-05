@@ -1,0 +1,89 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.header {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  color: #1c1c1c;
+  font-size: 70px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 25px;
+  color: #1c1c1c;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  margin-right: 70px;
+  margin-left: 70px;
+  text-align: center;
+}
+
+.list {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 17.5px;
+  color: #1c1c1c;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 70px;
+  margin-left: 30%;
+  line-height: 2;
+}
+
+.dot {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 100px;
+  color: #1c1c1c;
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 8px;
+  border-color: #1c1c1c;
+  color: #1c1c1c;
+  padding: 15px 32px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 30px;
+  background-color: whitesmoke;
+  transition-duration: 0.4s;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.button:hover {
+  background-color: #1c1c1c; 
+  color: white;
+}
+
+.button_container {
+  text-align: center;
+}
+
+.footer {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 13px;
+  color: #b3b3b3;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  margin-right: 70px;
+  margin-left: 70px;
+  text-align: center;
+}
