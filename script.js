@@ -25,14 +25,23 @@ function experimentSetup() {
   document.getElementById("button_container").innerHTML = "<br><br><br><br><br><br><button id='button' class='button'></button>";
   document.getElementById("button").innerHTML = "Change noticed";
   document.getElementById("button").addEventListener("click", endExperiment);
+  noise.play();
+  startTime = Date.now();
 }
 
 function endExperiment() {
+  noise.pause();
+  endTime = Date.now();
+  var difference = endTime-startTime;
   clearPage();
   document.getElementById("header").innerHTML = "<br><br>The White Noise Experiment";
   document.getElementById("subtitle").innerHTML = "Thank you for participating! Your data has been logged. Results from this round of testing will be published on this website when the experiment is complete (may be several months)."
+  console.log(startTime + " " + endTime);
 }
 
 // Main Script
+var startTime;
+var endTime;
+var noise = new Audio("concept-track.mp3");
 initialSetup();
 document.getElementById("button").addEventListener("click", experimentSetup);
